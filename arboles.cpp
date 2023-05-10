@@ -75,6 +75,7 @@ int registrar(){
 int mostrar(){
     if(cab!=NULL){
         cout<<"Bienvenido"<<endl;
+        cout<<"Hay "<<Natletas<<" Atletas"<<endl;
         for (aux=cab; aux!=NULL; aux = aux->sig)
         {
             cout<<"Nombre: "<<aux->nombre<<endl;
